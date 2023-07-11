@@ -1,0 +1,15 @@
+.navigation {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .navigation a {
+    color: whitesmoke;
+    text-decoration: none;
+  }
+  
+  .navigation a.selected {
+    text-decoration: underline;
+  }
+  

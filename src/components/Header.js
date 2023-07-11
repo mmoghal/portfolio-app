@@ -1,12 +1,12 @@
 import React from 'react';
 import Navigation from './Navigation';
+import styles from './Header.module.css'; // import styles
 
 function Header() {
   return (
-    <header>
+    <header className={styles.header}>
       <h1>Muhammad Moghal's Portfolio</h1>
       <Navigation />
-      {/* Here I will be adding Navigation */}
     </header>
   );
 }

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import styles from './Contact.module.css'; // import styles
 
 function Contact() {
   const [name, setName] = useState('');
@@ -15,9 +16,9 @@ function Contact() {
   };
 
   return (
-    <section>
+    <section className={styles.contact}>
       <h2>Contact</h2>
-      <form onSubmit={handleSubmit}>
+      <form className={styles.form} onSubmit={handleSubmit}>
         <label>
           Name:
           <input type="text" value={name} onChange={(event) => setName(event.target.value)} required />

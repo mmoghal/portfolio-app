@@ -1,14 +1,23 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+import styles from './Navigation.module.css'; // import styles
 
 function Navigation() {
   return (
     <nav>
-      <ul>
-        <li><Link to="/">About Me</Link></li>
-        <li><Link to="/portfolio">Portfolio</Link></li>
-        <li><Link to="/contact">Contact</Link></li>
-        <li><Link to="/resume">Resume</Link></li>
+      <ul className={styles.navigation}>
+        <li>
+          <NavLink to="/about-me" activeClassName={styles.selected}>About Me</NavLink>
+        </li>
+        <li>
+          <NavLink to="/portfolio" activeClassName={styles.selected}>Portfolio</NavLink>
+        </li>
+        <li>
+          <NavLink to="/contact" activeClassName={styles.selected}>Contact</NavLink>
+        </li>
+        <li>
+          <NavLink to="/resume" activeClassName={styles.selected}>Resume</NavLink>
+        </li>
       </ul>
     </nav>
   );
