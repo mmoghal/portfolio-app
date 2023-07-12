@@ -1,16 +1,30 @@
 .footer {
     background-color: #f8f9fa;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
-  }
-  
-  .footer a {
+    position: relative;
+}
+
+.footer a {
     color: #007bff;
     text-decoration: none;
     margin: 0 10px;
-  }
-  
-  .footer a:hover {
+    font-size: 16px;
+}
+
+.footer a:hover {
     text-decoration: underline;
-  }
-  
+}
+
+.footer div {
+    margin: 10px auto;
+}
+
+.footer div:last-child {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 14px;
+    color: #333;
+}

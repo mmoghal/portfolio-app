@@ -1,6 +1,6 @@
 import React from 'react';
 import Navigation from './Navigation';
-import styles from './Header.module.css'; // import styles
+import styles from './Header.module.css'; 
 
 function Header() {
   return (
