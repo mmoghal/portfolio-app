@@ -1,111 +1,30 @@
 import React from 'react';
-import styles from './About.module.css'; // import styles
+import styles from './About.module.css'; // imported styles
+import myPic from '../assets/mypic.jpg'; // Imported the image
 
 function About() {
   return (
     <section className={styles.about}>
       <h2>About Me</h2>
+      <div>
+        <img src={myPic} alt="Muhammad Moghal" className={styles.profilePic} />
+      </div>
       <p>
-      Hey there! I'm Muhammad Moghal, a Senior Software Engineer specializing in Infrastructure Engineering. I have a passion for creating innovative software solutions. Each day, I wake up with excitement to collaborate, design, and code, driven by the satisfaction of turning ideas into reality.
-      </p>
+      Hello! I'm Muhammad Moghal, a seasoned Software Engineer with a keen focus on Infrastructure Engineering. One of the things that get me out of bed each morning is my passion for innovation and the opportunity to turn complex concepts into real-life software solutions. I've honed my skills in full stack development, and I love every bit of it.</p>
       <p>
-        With extensive experience in both frontend and backend development, I thrive on pushing the boundaries of technology and constantly expanding my skill set. I specialize in using cutting-edge frameworks and languages such as React, React Native, JavaScript, and TypeScript to build robust and scalable applications.
-      </p>
+      Over the years, I've amassed significant experience in architecting and designing robust systems, getting my hands deep into networking, cloud computing, and enterprise server and storage platforms. There's a unique thrill in creating scalable applications and infrastructure tailored specifically to each project's needs, and I thrive on it. </p>
       <p>
-        My commitment to clean and efficient code allows me to deliver high-quality solutions that meet the unique needs of each project. I take pride in my ability to communicate effectively, adapt to new challenges, and work seamlessly within cross-functional teams.
-      </p>
+      But it doesn't stop there. I've developed a knack for implementing monitoring and telemetry systems, crafting high-availability solutions, and strategizing effective disaster recovery plans. These are no small feat, and they've been crucial in ensuring optimal resource utilization and consistent business continuity in all the projects I've handled. </p>
       <p>
-        Outside of coding, I enjoy exploring new technologies, attending tech conferences, and engaging in fitness activities to maintain a well-rounded lifestyle. I am always open to exciting opportunities and collaborations, so please feel free to reach out and connect.
-      </p>
+      When I'm not behind a screen, I'm likely exploring emerging technologies, at a tech conference, or just keeping fit. I believe that a well-rounded life breeds creativity and innovation, and this reflects in my work.</p>
       <p>
-      In addition to my software engineering expertise, I specialize in Infrastructure Engineering, where I design and build reliable and scalable solutions to run diverse workloads on-prem infrastructure and maintain remote offices around the globe. My infrastructure skills include:
-      </p>
-      <ul>
-        <li>Virtualization: VMware, ESXi</li>
-        <li>Cloud Computing: Azure, AWS</li>
-        <li>Infrastructure Certifications:
-          <ul>
-            <li>VMware Certified Professional (VCP)</li>
-            <li>Microsoft Azure Architect Technologies (AZ-303)</li>
-            <li>Microsoft Azure Administrator (AZ-104)</li>
-            <li>NetApp Certified Data Administrator, ONTAP</li>
-          </ul>
-        </li>
-        <li>Networking: Cisco UCS, Brocade and Cisco SAN Fabric technologies</li>
-        <li>Storage Technologies: EMC Isilon for NAS, Cohesity, EMC VPLEX, Pure Storage</li>
-        <li>Operating Systems: Windows, Linux</li>
-      </ul>
-      <h3>Skills</h3>
-      <h3>Computer Science Applied to JavaScript</h3>
-      <ul>
-        <li>Algorithms (Searches, Sorts)</li>
-        <li>Performance</li>
-        <li>Time Complexity</li>
-        <li>Big O Notation</li>
-        <li>Data Structures</li>
-      </ul>
-      <h3>API Design</h3>
-      <ul>
-        <li>Client-Server Model</li>
-        <li>API</li>
-        <li>REST</li>
-        <li>JSON</li>
-        <li>AJAX (Fetch API)</li>
-        <li>HTTP request methods</li>
-        <li>GraphQL</li>
-      </ul>
-      <h3>Deployment and Delivery</h3>
-      <ul>
-        <li>Heroku</li>
-        <li>Git</li>
-        <li>GitHub Pages</li>
-        <li>Shell Scripting</li>
-        <li>Unit Testing</li>
-        <li>Linting</li>
-        <li>Continuous Integration</li>
-      </ul>
-      <h3>Databases</h3>
-      <ul>
-        <li>MySQL</li>
-        <li>MongoDB</li>
-      </ul>
-      <h3>Server Side Development</h3>
-      <ul>
-        <li>Node.js</li>
-        <li>Express.js</li>
-        <li>User Authentication</li>
-        <li>Template Engines</li>
-        <li>MERN Stack (MongoDB, Express.js, React.js, Node.js)</li>
-      </ul>
-      <h3>Browser Based Technologies</h3>
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>Responsive Design</li>
-        <li>Progressive Web Applications (PWAs)</li>
-        <li>Bootstrap</li>
-        <li>Local Storage, Session Storage, IndexedDB</li>
-        <li>React.js</li>
-        <li>jQuery</li>
-      </ul>
-      <h3>Competencies</h3>
-      <ul>
-        <li>Apply “social coding” accepted and best practices (including source control, issue tracking, functional feedback, etc.)</li>
-        <li>Build a front end website either from scratch or by utilizing a front end framework (such as Bootstrap)</li>
-        <li>Navigate the file system and terminal basics</li>
-        <li>Deploy static and dynamic websites to the cloud</li>
-        <li>Create a full stack Single Page Application with AJAX communication</li>
-        <li>Implement complex logical conditions to meet an objective</li>
-        <li>Write SQL commands to perform Create, Read, Update and Delete commands</li>
-        <li>Develop your vision for a website—and then build it!</li>
-        <li>Work independently or in a group on complex projects throughout the entire development lifecycle</li>
-        <li>Understand the basics of troubleshooting and enhancing legacy code</li>
-        <li>Communicate the basics of serving a web page and how the browser renders code</li>
-        <li>Create RESTful APIs utilizing JSON as a data format</li>
-        <li>Consume RESTful APIs properly utilizing REST verbs</li>
-        <li>Create session-based applications utilizing user authentication schemes that are well-known and widely used</li>
-      </ul>
+      I'm proud of my excellent communication skills, and I've learned to adapt quickly to new challenges, thanks to the diverse teams I've worked with. These skills, coupled with my commitment to code quality, have been instrumental in creating highly optimized IT environments.</p>
+      <p>I am passionate about staying current with emerging technologies and trends and strive to deliver innovative solutions that align with business objectives. My commitment to clean, efficient code, effective communication, and a collaborative approach allows me to contribute significantly to the optimization and efficiency of IT environments.</p>
+      <p>I bring to the table strong competencies in areas such as social coding, front-end development (including building websites from scratch and utilizing front-end frameworks like Bootstrap), filesystem and terminal navigation, cloud deployment, AJAX communication for full stack Single Page Applications, SQL commands, RESTful APIs, and session-based applications utilizing popular user authentication schemes. I excel at working independently or collaboratively on complex projects, am adept at troubleshooting and enhancing legacy code, and have a strong understanding of how web pages are served and rendered.</p>
+      <p>You can check out my portfolio for a closer look at my journey and  my resume section for a deeper dive into my skills. You'll find an array of projects where I've successfully deployed infrastructure, designed secure and resilient solutions, and ensured optimal resource utilization and business continuity.</p>
+      <p>I'm always on the lookout for emerging technologies and trends, ready to infuse these innovations into solutions that align with business goals and promote growth.</p>
+      <p>I'm excited about the possibility of leveraging my skills and dedication on new, cutting-edge projects. If you're looking for someone who is dedicated, experienced, and passionate about delivering top-notch solutions, I'm just a message away.</p>
+      <p>So, shall we collaborate and turn your tech objectives into reality? I'm game!</p>
     </section>
   );
 }
