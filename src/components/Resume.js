@@ -14,6 +14,8 @@ function Resume() {
         ],
         'Deployment and Delivery': [
           'Heroku',
+          'Azure',
+          'AWS',
           'Git',
           'GitHub Pages',
           'Shell Scripting',
@@ -77,7 +79,16 @@ function Resume() {
           'VPLEX Operation & Management',
           'Clariion Implementation, Install, Configure and Management',
           'vSphere Install, Configure and Manage',
+          'VMware vSphere: Fast Track',
+          'VMware Horizon 7: Install, Configure, Manage',
           'VMware View and SRM Install, Configure and Manage',
+          'VMware vCloud Director Architecting Your Cloud',
+          'Microsoft SQL Server for Administration',
+          'Red Hat Automation with Ansible',
+          'Red Hat OpenStack Administration I ',
+          'Red Hat OpenStack Administration II',
+          'Automation with Ansible II: Ansible Tower',
+          'IT Project Management',
         ],
       };
 

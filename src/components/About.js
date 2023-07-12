@@ -1,6 +1,9 @@
 import React from 'react';
 import styles from './About.module.css'; // imported styles
 import myPic from '../assets/mypic.jpg'; // Imported the image
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faHtml5, faCss3, faJs, faReact, faNode } from '@fortawesome/free-brands-svg-icons'
+
 
 function About() {
   return (
@@ -25,6 +28,13 @@ function About() {
       <p>I'm always on the lookout for emerging technologies and trends, ready to infuse these innovations into solutions that align with business goals and promote growth.</p>
       <p>I'm excited about the possibility of leveraging my skills and dedication on new, cutting-edge projects. If you're looking for someone who is dedicated, experienced, and passionate about delivering top-notch solutions, I'm just a message away.</p>
       <p>So, shall we collaborate and turn your tech objectives into reality? I'm game!</p>
+      <div>
+        <FontAwesomeIcon icon={faHtml5} size="2x" />
+        <FontAwesomeIcon icon={faCss3} size="2x" />
+        <FontAwesomeIcon icon={faJs} size="2x" />
+        <FontAwesomeIcon icon={faReact} size="2x" />
+        <FontAwesomeIcon icon={faNode} size="2x" />
+      </div>
     </section>
   );
 }
