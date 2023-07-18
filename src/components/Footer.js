@@ -8,8 +8,8 @@ function Footer() {
     <footer className={styles.footer}>
       <div>
         <a href="https://github.com/mmoghal" target="_blank" rel="noopener noreferrer">GitHub</a>
-        <a href="https://www.linkedin.com/in/mmoghal" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-        <a href="https://stackoverflow.com/users/mmoghal" target="_blank" rel="noopener noreferrer">Stack Overflow</a>
+        <a href="https://www.linkedin.com/in/muhammad-m-82510a127/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://stackoverflow.com/users/22243319/muhammad-moghal" target="_blank" rel="noopener noreferrer">Stack Overflow</a>
       </div>
       <div>
         {year} © nRm. All rights reserved.
