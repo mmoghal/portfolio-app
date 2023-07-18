@@ -95,7 +95,7 @@ function Resume() {
       return (
         <section className={styles.resume}>
           <h2>Resume</h2>
-          <h3>Download my <a href="/SampleResume.pdf" download>resume</a></h3>
+          <h3>Download my <a href="/Resume_2023.pdf" download>resume</a></h3>
           <h3>Technical Expertise</h3>
           {Object.keys(technicalExpertise).map((category, index) => (
             <div key={index}>
