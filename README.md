@@ -48,9 +48,9 @@ This project is licensed under the MIT License.
 
 For any inquiries or collaboration opportunities, please feel free to reach out to the developer:
 
-- GitHub: [github.com/your-username](https://github.com/mmoghal)
-- LinkedIn: [linkedin.com/in/your-profile](https://www.linkedin.com/in/muhammad-m-82510a127/)
-- Third Platform: [stackoverflow.com/users/your-profile](https://stackoverflow.com/users/22243319/muhammad-moghal)
+- GitHub: [github.com/mmoghal](https://github.com/mmoghal)
+- LinkedIn: [linkedin.com/in/muhammad-m-82510a127/](https://www.linkedin.com/in/muhammad-m-82510a127/)
+- Third Platform: [stackoverflow.com/users/22243319/muhammad-moghal](https://stackoverflow.com/users/22243319/muhammad-moghal)
 
 ---
 
