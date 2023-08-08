@@ -8,6 +8,7 @@ import project4Image from '../assets/calm-reward.png'; // Import calm-reward.png
 import project5Image from '../assets/work-day-scheduler.png'; // Import work-day-scheduler.png image
 import project6Image from '../assets/weather-dashboard.png'; // Import weather-dashboard.png image
 import project7Image from '../assets/rock-paper-scissors.png'; // Import rock-paper-scissors.png image
+import project8Image from '../assets/sustain.png'; // Import sustain-a-plate.png image
 
 const projects = [
 
@@ -66,6 +67,13 @@ const projects = [
     deployedUrl: 'https://mmoghal.github.io/fast-crime/',
     repoUrl: 'https://github.com/mmoghal/fast-crime',
     description: 'Generate strong passwords with custom options.',
+  },
+  {
+    title: 'Sustain-A-Plate',
+    image: project8Image,
+    deployedUrl: 'https://sustain-a-plate-a492ad2a8239.herokuapp.com/',
+    repoUrl: 'https://github.com/Will-Riffe/Sustain-A-Plate',
+    description: 'Sustain-A-Plate is a web application that allows users to explore sustainable and eco-friendly food options.',
   },
   // Add more projects here...
 ];
