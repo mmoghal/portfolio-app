@@ -50,7 +50,7 @@ For any inquiries or collaboration opportunities, please feel free to reach out 
 
 - GitHub: [github.com/mmoghal](https://github.com/mmoghal)
 - LinkedIn: [linkedin.com/in/muhammad-m-82510a127/](https://www.linkedin.com/in/muhammad-m-82510a127/)
-- Third Platform: [stackoverflow.com/users/22243319/muhammad-moghal](https://stackoverflow.com/users/22243319/muhammad-moghal)
+- Stackoverflow: [stackoverflow.com/users/22243319/muhammad-moghal](https://stackoverflow.com/users/22243319/muhammad-moghal)
 
 ---
 
