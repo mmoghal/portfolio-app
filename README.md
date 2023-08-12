@@ -54,4 +54,4 @@ For any inquiries or collaboration opportunities, please feel free to reach out 
 
 ---
 
-Thank you for visiting the portfolio website! We hope you enjoy exploring the work samples and skills showcased here.
+Thank you for visiting the portfolio website! I hope you enjoy exploring the work samples and skills showcased here.
